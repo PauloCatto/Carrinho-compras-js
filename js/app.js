@@ -19,6 +19,7 @@ function adicionar() {
 
         valorTotal.textContent = `R$ ${total.toFixed(2)}`;
     }
+    document.getElementById('quantidade').value = 0;
 }
 
 function limpar() {
